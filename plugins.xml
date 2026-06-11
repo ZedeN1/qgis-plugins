@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugins>
+  <pyqgis_plugin name="Cross Section Editor" version="0.44">
+    <description>A plugin for editing cross section data. Primarily for ESTRY-TUFLOW cross-sections.</description>
+    <about>This plugin for QGIS provides an interactive tool for editing and managing cross-section data. Primarily for use with ESTRY-TUFLOW cross sections.</about>
+    <version>0.44</version>
+    <qgis_minimum_version>3.0</qgis_minimum_version>
+    <author_name>Pavel Diptan</author_name>
+    <email>pdiptan@gmail.com</email>
+    <homepage>https://github.com/ZedeN1/CrossSectionEditor</homepage>
+    <tracker>https://github.com/ZedeN1/CrossSectionEditor/issues</tracker>
+    <repository>https://github.com/ZedeN1/CrossSectionEditor</repository>
+    <download_url>https://github.com/ZedeN1/CrossSectionEditor/releases/download/v0.44/CrossSectionEditor.0.44.zip</download_url>
+    <experimental>True</experimental>
+    <deprecated>False</deprecated>
+    <tags>cross-section,editor,hydraulics,TUFLOW</tags>
+  </pyqgis_plugin>
+  <pyqgis_plugin name="Search and Replace" version="0.1">
+    <description>Find and replace text across vector layer attributes, with regex, multi-field, and batch pair support.</description>
+    <about>A dockable panel for finding and replacing text values in vector layer attributes.
+
+Features:
+- Target multiple fields at once
+- Run multiple search/replace pairs in a single pass
+- Optional regular expression (regex) support with capture group substitution
+- Case-insensitive matching
+- Preview changes before applying them
+- Edits are staged — review in the attribute table and save when ready</about>
+    <version>0.1</version>
+    <qgis_minimum_version>3.0</qgis_minimum_version>
+    <qgis_maximum_version>4.99</qgis_maximum_version>
+    <author_name>Pavel Diptan</author_name>
+    <email>pdiptan@gmail.com</email>
+    <homepage>https://github.com/ZedeN1/SearchAndReplace</homepage>
+    <tracker>https://github.com/ZedeN1/SearchAndReplace/issues</tracker>
+    <repository>https://github.com/ZedeN1/SearchAndReplace</repository>
+    <download_url>https://github.com/ZedeN1/SearchAndReplace/releases/download/v0.1/SearchAndReplace.0.1.zip</download_url>
+    <experimental>True</experimental>
+    <deprecated>False</deprecated>
+    <tags>search,replace,attributes,field,edit,regex,batch</tags>
+  </pyqgis_plugin>
+</plugins>
