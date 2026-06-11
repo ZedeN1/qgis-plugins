@@ -9,3 +9,4 @@ for all plugins listed below.
 2. Under *Plugin Repositories*, click **Add**
 3. Enter any name and the following URL:
 
+https://ZedeN1.github.io/qgis-plugins/plugins.xml
