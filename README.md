@@ -10,3 +10,14 @@ for all plugins listed below.
 3. Enter any name and the following URL:
 
 https://ZedeN1.github.io/qgis-plugins/plugins.xml
+
+## Available Plugins
+
+| Plugin | Description |
+|--------|-------------|
+| [Cross Section Editor](https://github.com/ZedeN1/CrossSectionEditor) | *(add description)* |
+| [Search and Replace](https://github.com/ZedeN1/SearchAndReplace) | Find and replace text across vector layer attributes |
+
+## Issues
+
+Report bugs or feature requests in each plugin's own repository (linked above).
