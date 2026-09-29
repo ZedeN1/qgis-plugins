@@ -53,7 +53,7 @@ Options:
 - Merge the tiles into a single raster
 - Convert to GeoTIFF, ASCII Grid (.asc) or ESRI Float (.flt)
 
-Also adds a Processing Toolbox algorithm (LiDAR Fetcher UK &gt; Convert raster to FLT / ASC / GeoTIFF) that converts any raster, with batch support.</about>
+Also adds Processing Toolbox algorithms (LiDAR Fetcher UK): Download LiDAR tiles, for batch runs and models, and Convert raster to FLT / ASC / GeoTIFF for any raster.</about>
     <version>0.02</version>
     <qgis_minimum_version>3.22</qgis_minimum_version>
     <qgis_maximum_version>4.99</qgis_maximum_version>
