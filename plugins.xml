@@ -67,10 +67,10 @@ Also adds Processing Toolbox algorithms (LiDAR Fetcher UK): Download LiDAR tiles
     <deprecated>False</deprecated>
     <tags>lidar,dtm,dsm,download,environment agency,england,scotland,wales,elevation,vrt,flt,asc</tags>
   </pyqgis_plugin>
-  <pyqgis_plugin name="Browser Fetcher UK" version="0.05">
+  <pyqgis_plugin name="Browser Fetcher UK" version="0.06">
     <description>Adds UK government map services (DEFRA / Environment Agency, Scotland, Wales, BGS, CEH) to the QGIS Browser as WMS, WFS, WCS, XYZ and vector tile connections, and keeps them up to date.</description>
     <about>Searches the public data catalogues of England (data.gov.uk, or the complete DEFRA catalogue), Scotland and Wales, and adds every dataset with a map service to the QGIS Browser. Only its own connections are replaced on update; a shared folder lets one person fetch for a whole team; shows what changed; custom connections and catalogue sources can be imported and exported.</about>
-    <version>0.05</version>
+    <version>0.06</version>
     <qgis_minimum_version>3.30</qgis_minimum_version>
     <qgis_maximum_version>4.99</qgis_maximum_version>
     <author_name>Pavel Diptan</author_name>
@@ -78,7 +78,7 @@ Also adds Processing Toolbox algorithms (LiDAR Fetcher UK): Download LiDAR tiles
     <homepage>https://github.com/ZedeN1/BrowserFetcherUK</homepage>
     <tracker>https://github.com/ZedeN1/BrowserFetcherUK/issues</tracker>
     <repository>https://github.com/ZedeN1/BrowserFetcherUK</repository>
-    <download_url>https://github.com/ZedeN1/BrowserFetcherUK/releases/download/v0.05/BrowserFetcherUK.0.05.zip</download_url>
+    <download_url>https://github.com/ZedeN1/BrowserFetcherUK/releases/download/v0.06/BrowserFetcherUK.0.06.zip</download_url>
     <experimental>True</experimental>
     <deprecated>False</deprecated>
     <tags>wms,wfs,wcs,wmts,xyz,vector tiles,browser,connections,defra,environment agency,scotland,wales,bgs,ceh,uk</tags>
