@@ -41,8 +41,11 @@ Features:
     <tags>search,replace,attributes,field,edit,regex,batch</tags>
   </pyqgis_plugin>
   <pyqgis_plugin name="LiDAR Fetcher UK" version="0.01">
-    <description>Download Environment Agency LiDAR tiles for a polygon or extent, with optional VRT, pyramids, merge and format conversion.</description>
-    <about>Pick an area (polygon layer or extent), choose one or more datasets from the Environment Agency survey catalogue (LiDAR composites, time-stamped tiles, National LiDAR Programme, point clouds) and download the tiles into a folder.
+    <description>Download LiDAR tiles for England, Scotland and Wales for a polygon or extent, with optional VRT, pyramids, merge and format conversion.</description>
+    <about>Pick an area (polygon layer or extent), choose one or more LiDAR datasets and download the tiles into a folder. Sources:
+- England: Environment Agency survey catalogue (composites, time-stamped tiles, National LiDAR Programme, point clouds)
+- Scotland: Scottish Remote Sensing Portal (Phases 1-6, National LiDAR Programme, Outer Hebrides, Orkney, HES projects)
+- Wales: DataMapWales (Welsh Government LiDAR 2020-2023 and the NRW archive 1998-2015, converted from millimetres to metres)
 
 Options:
 - Build a VRT mosaic
@@ -50,9 +53,7 @@ Options:
 - Merge the tiles into a single raster
 - Convert to GeoTIFF, ASCII Grid (.asc) or ESRI Float (.flt)
 
-Also adds a Processing Toolbox algorithm (LiDAR Fetcher UK &gt; Convert raster to FLT / ASC / GeoTIFF) that converts any raster, with batch support.
-
-Coverage is England only (Environment Agency data).</about>
+Also adds a Processing Toolbox algorithm (LiDAR Fetcher UK &gt; Convert raster to FLT / ASC / GeoTIFF) that converts any raster, with batch support.</about>
     <version>0.01</version>
     <qgis_minimum_version>3.22</qgis_minimum_version>
     <qgis_maximum_version>4.99</qgis_maximum_version>
@@ -64,6 +65,6 @@ Coverage is England only (Environment Agency data).</about>
     <download_url>https://github.com/ZedeN1/LiDARFetcherUK/releases/download/v0.01/LiDARFetcherUK.0.01.zip</download_url>
     <experimental>True</experimental>
     <deprecated>False</deprecated>
-    <tags>lidar,dtm,dsm,download,environment agency,england,elevation,vrt,flt,asc</tags>
+    <tags>lidar,dtm,dsm,download,environment agency,england,scotland,wales,elevation,vrt,flt,asc</tags>
   </pyqgis_plugin>
 </plugins>
