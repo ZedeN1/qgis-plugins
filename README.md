@@ -18,6 +18,7 @@ for all plugins listed below.
 |--------|-------------|
 | [Cross Section Editor](https://github.com/ZedeN1/CrossSectionEditor) | Interactive tool for editing and managing cross-section data. Primarily for ESTRY-TUFLOW cross sections. |
 | [Search and Replace](https://github.com/ZedeN1/SearchAndReplace) | Find and replace text across vector layer attributes, with regex, multi-field, and batch pair support. |
+| [LiDAR Fetcher UK](https://github.com/ZedeN1/LiDARFetcherUK) | Download Environment Agency LiDAR tiles for a polygon or extent, with optional VRT, pyramids, merge and FLT/ASC/GeoTIFF conversion. |
 
 ## Issues
 
